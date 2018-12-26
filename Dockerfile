@@ -1,4 +1,4 @@
-FROM privatebin:nginx-fpm-alpine
+FROM privatebin/nginx-fpm-alpine
 
 ADD template/ /srv/tpl/
 ADD img/ /var/www/img/
